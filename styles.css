@@ -1,0 +1,51 @@
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .navbar {
+    background-color: blue;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  .btn-success {
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-success:hover {
+    background-color: #2ecc71;
+  }
+
+  .table-bordered {
+    border: 1px solid #ddd;
+  }
+
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .table-bordered th {
+    background-color: #f2f2f2;
+  }
+
+  /* Animation for table rows */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  tbody tr {
+    animation: fadeIn 0.5s ease-out;
+  }
+</style>
